@@ -1,0 +1,23 @@
+{
+  "name": "cfupdatesforged",
+  "version": "1.0.0",
+  "description": "CurseForge API based JSON update checker for Forge",
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "prod": "npx tsc; node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Khajiitos",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.4",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}
